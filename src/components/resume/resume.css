@@ -1,0 +1,100 @@
+.Body-titleBox {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    color: #eeed;
+    min-width: 250px;
+    max-width: 250px;
+}
+
+        .Body-textBoxWrap {
+            flex-direction: column;
+            overflow: auto;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+    .Body-titleResume {
+        margin-top: 0px;
+        font-size: 2em;
+        color: #eeed;
+        padding: 20px;
+        font-family: 'Lato', sans-serif;
+        cursor: pointer;
+        background-color: #484848dd;
+    }
+
+    .Body-titleResume:hover {
+        transform: scale(1.02)
+    }
+
+    .Body-itemBox {
+        display: flex;
+        flex-direction: row;
+    }
+
+        .Body-itemLeft {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-end;
+            margin-left: 20px;
+            margin-top: 20px;
+        }
+
+            .Body-captionText{
+                font-size: 1.7em;
+                color: #eeed;  
+                background-color: #1faa00;
+                width: 190px;
+                height: 60px;
+                margin: 0px;
+                line-height: 60px;
+            }
+
+            .Body-captionLogo {
+                height: 65px;
+                width: 65px;
+                margin: 3px;
+                color: #1faa00;
+                filter: opacity(70%)
+            }
+
+        .Body-itemRight {
+            margin-top: 20px;
+            margin-right: 10px;
+            border-left-width: 2px;
+            border-left-color: #1faa00;
+            border-left-style: solid;
+        }
+
+            .Body-itemTextHeader{
+                font-size: 20px;
+                color: #64dd17;  
+                font-family: 'Open Sans', sans-serif;
+                font-weight: 300;
+                letter-spacing: 1px;  
+                padding-left: 20px;
+                text-align: start;
+            }
+            
+            .Body-itemTextBody{
+                margin: 0;
+                font-size: 22px;
+                color: #eeed;  
+                font-family: 'Lato', sans-serif;
+                padding-left: 20px;
+                text-align: start;
+            }
+                        
+            .Body-itemTextFooter{
+                margin: 0;
+                font-size: 18px;
+                color: #eeed;  
+                font-family: 'Open Sans', sans-serif;
+                font-weight: 300;
+                letter-spacing: 1px;  
+                padding-left: 20px;
+                padding-top: 10px; 
+                text-align: start;
+            }

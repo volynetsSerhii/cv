@@ -1,28 +1,72 @@
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700');
+
 .App {
+  display: flex;
   text-align: center;
+  justify-content: center;
+  background-color: #212121;
+  background-position: top; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
+  .HeaderBG {
+    /* display: flex; */
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-color: #212121dd;
+    height: 57px;
+  }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
+  .Container {
+    position: absolute;
+    width: 1024px;
+    /* height: 47px; */
+    display: flex;
+    /* background-color: #f00; */
+    flex-direction: column;
+  }
 
-.App-title {
-  font-size: 1.5em;
-}
+    .Header {
+      display : flex;
+      align-items: center;
+      height: 47;
+      justify-content: space-between;
+      padding: 0px;
+      /* background-color: #212121dd; */
+    }
 
-.App-intro {
-  font-size: large;
-}
+    .App-logo {
+      /* animation: App-logo-spin infinite 20s linear; */
+      height: 47px;
+      padding: 10px;
+      margin-left: 50px;
+    }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
+    .menu {
+      display : flex;
+    }
+
+      .menuItem {
+        color: #eee;
+        margin-right: 10px;
+        background-color: transparent;
+        border-width: 0;
+        cursor: pointer;
+        padding: 7px;
+        font-size: 20px;
+        letter-spacing: 1px;
+        font-family: 'Open Sans Condensed', sans-serif;
+        text-transform: uppercase;
+      }
+
+      .menuItem:focus {
+        outline: none;
+      } 
+
+      .menuItem:hover {
+        transform: scale(1.05)
+      } 

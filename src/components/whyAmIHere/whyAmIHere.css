@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+.Body {
+    display: -webkit-flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+    .Body-title {
+      margin-top: 10px;
+      font-size: 3em;
+      color: #eeed;
+      min-width: 150px;
+      max-width: 150px;
+      padding: 20px;
+      font-family: 'Lato', sans-serif;
+      background-color: #1faa00dd
+    }
+
+    .Body-textBox {
+      display: -webkit-flex;
+      background-color: #484848dd;
+      margin-left: 20px;
+      margin-top: 10px;
+      padding-right: 10px; 
+    }
+
+        .Body-text {
+            font-size: 18px;
+            color: #eee;
+            font-family: 'Open Sans', sans-serif;
+            text-align: start;
+            font-weight: 300;
+            margin-left: 20px;
+            padding-right: 10px; 
+            letter-spacing: 1px;  
+            overflow: auto;
+        }
